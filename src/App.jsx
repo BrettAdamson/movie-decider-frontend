@@ -37,16 +37,6 @@ function App() {
       <div className='card'>
         <div>
           {JSON.stringify(users)}
-          {/* {users.length > 0 && (
-            <ul>
-              {users.map(user => (
-                <li key={user.id}>{user.name}</li>
-              ))}
-            </ul>
-          )} */}
-                <button >
-                  Click for Data!
-        </button>
         </div>
       </div>
       <p className="read-the-docs">
